@@ -9,6 +9,7 @@ export default {
 
     COLOR_FONT:"#333333",
     COLOR_FONT_1:"#999591",
+    COLOR_SUB_TITLE:"#CAC4CF",
     PLACEHOLDER_1:"#948F99",
 
     BORDER_1:"#473B3B",
