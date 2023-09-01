@@ -17,6 +17,7 @@ border-radius:10px;
   color: ${({ theme }) => theme.COLORS.WHITE};
   background: transparent;
   border:0;
+  
 
   &:placeholder{
     color: ${({ theme }) => theme.COLORS.GRAY_300};
