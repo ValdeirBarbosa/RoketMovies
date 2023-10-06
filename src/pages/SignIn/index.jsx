@@ -3,6 +3,8 @@ import { Button } from "../../Components/Button"
 import { Input } from "../../Components/Input"
 import { FiMail, FiUser } from "react-icons/fi"
 
+import {Link} from "react-router-dom"
+
 
 export function SignIn() {
   return (
@@ -16,7 +18,8 @@ export function SignIn() {
         <Input placeholder="E-mail" type="text" icon={FiUser} />
         <Input placeholder="E-mail" type="text" icon={FiMail} />
         <Button title="Entrar"></Button>
-      <a href="#">Criar Conta</a>
+      {/* <a href="#">Criar Conta</a> */}
+      <Link to="/signup">Criar Conta</Link>
       
       </Form>
       <Background />

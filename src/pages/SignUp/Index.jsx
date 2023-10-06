@@ -2,6 +2,7 @@ import { Container, Form, Background } from "./styles"
 import { Button } from "../../Components/Button"
 import { Input } from "../../Components/Input"
 import { FiMail, FiUser, FiLock } from "react-icons/fi"
+import {Link} from "react-router-dom"
 
 export function SignUp() {
   return (
@@ -16,7 +17,7 @@ export function SignUp() {
         <Input placeholder="E-mail" type="text" icon={FiMail} />
         <Input placeholder="Senha" type="text" icon={FiLock} />
         <Button title="Cadastrar"></Button>
-        <a href="#">
+        <Link to="/">
           {" "}
           <svg
             width="16"
@@ -35,7 +36,7 @@ export function SignUp() {
               fill="#FF859B"
             />
           </svg> Voltar pata login
-        </a>
+        </Link>
       </Form>
       <Background />
     </Container>
