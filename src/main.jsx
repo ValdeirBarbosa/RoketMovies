@@ -6,8 +6,6 @@ import GlobalStyle from "./styles/global"
 
 
 import theme from "./styles/theme"
-
-
 import { Routes } from "./routes"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -15,6 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Routes />
+     
     </ThemeProvider>
   </React.StrictMode>
 )

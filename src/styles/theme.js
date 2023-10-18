@@ -1,7 +1,7 @@
 export default {
   COLORS: {
 
-    DARk_1:"#0D0C0F",
+    DARK_1:"#0D0C0F",
     DARK_2:"#1C1B1E",
     DARK_3:"#312E38",
     DARK_4: "#262529",
@@ -14,6 +14,7 @@ export default {
 
     BORDER_1:"#473B3B",
     PINK: "#FF859B",
+    PINK_LUCID: "#FF858922",
     WHITE:"#E5E5E5",
   }
 }
