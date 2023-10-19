@@ -44,9 +44,11 @@ export const Liner = styled.div`
 `
 
 export const MovieList = styled.div`
-display: flex;
+display: inline-flex;
+padding-right: 0px;
 flex-direction: column;
-gap:10px;
-padding:25px;
+align-items: flex-start;
+gap: 24px;
+margin:0 24px;
 
 `
