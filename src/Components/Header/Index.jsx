@@ -2,7 +2,7 @@
 import { Container } from "./styles"
 import { Input } from "../Input"
 
-import { FiSearch } from "react-icons/fi"
+
 
 
 export function Header() {
@@ -22,7 +22,7 @@ export function Header() {
       </svg>
 
       <div className="search_field">
-        <Input placeholder="Pesquisar por titúlo" type="text" icon={FiSearch} />
+        <Input placeholder="Pesquisar por titúlo" type="text"  />
       </div>
       <div className="field_profile">
         <div className="text-values">

@@ -1,5 +1,7 @@
 import { Container } from "./styles"
-import { StarRate } from "../StarRate"
+
+import { FiStar } from "react-icons/fi"
+
 import { Note } from "../Note"
 
 export function MovieCard({ title, description}) {
@@ -7,7 +9,15 @@ export function MovieCard({ title, description}) {
     <Container>
       <div>
         <h1>{title}</h1>
-        <StarRate />
+        <div className="start_rate">
+        <FiStar />
+        <FiStar />
+        <FiStar />
+        <FiStar />
+        <FiStar />
+
+        </div>
+
         <div className="description-movie">{description}</div>
       </div>
 
@@ -17,7 +27,7 @@ export function MovieCard({ title, description}) {
           tags: [
             { id: "1", name: "Ficção Científica" },
             { id: "2", name: "Drama" },
-            { id: "3", name: "Familia" }
+            { id: "3", name: "Familia" },
           ],
         }}
       />

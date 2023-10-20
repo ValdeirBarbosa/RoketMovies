@@ -3,13 +3,31 @@ import styled from "styled-components"
 
 export const Container = styled.div`
 background-color: ${({ theme }) => theme.COLORS.PINK_LUCID};
-/* border:1px solid ${({ theme }) => theme.COLORS.PINK}; */
+border:1px solid ${({ theme }) => theme.COLORS.PINK_LUCID};
 display: flex;
 padding: 32px;
+height: 208px;
 flex-direction: column;
-align-items: flex-start;
+justify-content: center;
 gap: 15px;
 border-radius:18px;
+
+.start_rate{
+  display: flex;
+  flex-direction: row;
+  height: 24px;
+  align-items: center;
+  gap:5px;
+}
+svg{
+  color:${({ theme }) => theme.COLORS.PINK};
+  fill:${({ theme }) => theme.COLORS.PINK};
+}
+svg:last-child{
+  color:${({ theme }) => theme.COLORS.PINK};
+  fill:transparent
+}
+
 
 h1{
    color:${({ theme }) => theme.COLORS.CARD_FONT_COLOR_TITLE};
