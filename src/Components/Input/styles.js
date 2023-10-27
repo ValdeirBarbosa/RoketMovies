@@ -10,8 +10,8 @@ color: ${({ theme }) => theme.COLORS.DARK_2};
 margin-bottom: 8px;
 border-radius:10px;
 
->input{
-  height: 56px;
+input{
+  height:100%;
   width:100%;
   padding: 12PX;
   color: ${({ theme }) => theme.COLORS.WHITE};

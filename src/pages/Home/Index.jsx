@@ -3,6 +3,8 @@ import { Container, Liner, MovieList } from "./styles"
 import { Header } from "../../Components/Header/Index"
 import { Button } from "../../Components/Button"
 import { MovieCard } from "../../Components/MovieCard"
+import { Link } from "react-router-dom"
+
 
 
 
@@ -13,7 +15,9 @@ export function Home(){
       <Liner>
         <h2>Meus Filmes</h2>
 
-        <Button title="+ Adicionar filme"></Button>
+        <Link to="/newmovie">
+          <Button title="+ Adicionar filme"></Button>
+        </Link>
       </Liner>
 
       <MovieList>

@@ -12,6 +12,9 @@ justify-content: center;
 gap: 15px;
 border-radius:18px;
 
+
+
+
 .start_rate{
   display: flex;
   flex-direction: row;
@@ -52,5 +55,4 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
 `
